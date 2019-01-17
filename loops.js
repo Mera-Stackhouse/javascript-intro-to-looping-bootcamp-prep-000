@@ -6,10 +6,5 @@ function forLoop(array) {
       array.push(`I am ${i} strange loops.`)
     }  
   } 
+  return array
 }
-
-array = []
-
-forLoop(array)
-
-console.log(array)
